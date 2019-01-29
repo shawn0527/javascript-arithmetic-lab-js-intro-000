@@ -28,6 +28,6 @@ function makeInt(n){
 }
 
 var n=n.toString()
-function preserveDecimal(){
+function preserveDecimal(n){
   return parseFloat(n)
 }
