@@ -22,10 +22,12 @@ function dec(n){
   return --n
 }
 
-function makeInt('n'){
-  return parseInt('n',10)
+var n=n.toString()
+function makeInt(n){
+  return parseInt(n,10)
 }
 
+var n=n.toString()
 function preserveDecimal(){
-  return parseFloat('n')
+  return parseFloat(n)
 }
