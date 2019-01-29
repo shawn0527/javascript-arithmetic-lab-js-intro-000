@@ -22,7 +22,7 @@ function dec(n){
   return --n
 }
 
-var n='n'
+var n=a
 function makeInt(n){
-  return parseInt(n,10)
+  return parseInt(a.toString(),10)
 }
